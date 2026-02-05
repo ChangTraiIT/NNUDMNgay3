@@ -1,0 +1,11 @@
+body { background: #f8f9fa; }
+.table img.thumb { width: 60px; height: 60px; object-fit: cover; border-radius: 4px; }
+.images-cell { display: flex; gap: 6px; align-items: center; max-width: 220px; overflow: hidden; }
+.title-cell { max-width: 420px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.search-row { margin-bottom: 1rem; }
+#loading { margin-bottom: 2rem; }
+/* pagination spacing */
+#pagination { margin: 0; }
+.sort-btn { font-weight: 600; padding: 0 6px; }
+.sort-btn.active { background-color: #e9ecef; }
+.clickable-row { cursor: pointer; }
